@@ -38,7 +38,8 @@ export default function Home({ allPostsData }) {
 
         <ul 
           className={utilStyles.list}
-        >{postList}
+        >
+          {postList}
         </ul>
       </section>
     </Layout>
